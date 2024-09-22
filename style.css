@@ -1,1 +1,15 @@
-GROUP PROJECT
+input[type="search"] {
+    padding: 1.5em;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1em;
+}
+
+input[type="list"] {
+    padding: 1.5em;
+    border: 1px wave rgb(119, 119, 119);
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1em;
+}
