@@ -31,14 +31,14 @@ document.getElementById('recipe-form').addEventListener('submit', function(e) {
     // Add recipe card to the list
     document.getElementById('recipe-list').appendChild(recipeCard);
 
-    // // Add event listener for favorite button
-    // recipeCard.querySelector('.favorite-btn').addEventListener('click', function() {
-    //     this.classList.toggle('favorite');
-    //     this.textContent = this.classList.contains('favorite') ? 'Unfavorite' : 'Favorite';
-    // });
+    // Add event listener for favorite button
+    recipeCard.querySelector('.favorite-btn').addEventListener('click', function() {
+        this.classList.toggle('favorite');
+        this.textContent = this.classList.contains('favorite') ? 'Unfavorite' : 'Favorite';
+    });
 
-    // // Clear the form
-    // document.getElementById('recipe-form').reset();   
+    // Clear the form
+    document.getElementById('recipe-form').reset();   
 
 });
 
