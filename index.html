@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,23 +13,24 @@
         <h1>🍳Recipe Sharing Website 🍳</h1>
     </header>
     <section>
-
-        #MOSES
-
-
-        #SOFEA
+        <h1>Add your own recipe here ! </h1>
+        <form id="recipe-form">
+            <input type="text" id="recipe-name" placeholder="Recipe Name" required>
+            <textarea id="ingredients" rows="4" placeholder="Ingredients" required></textarea>
+            <textarea id="instructions" rows="4" placeholder="Instructions" required></textarea>
+            <input type="file" id="image-upload" accept="image/*">
+            <button type="submit">Add Recipe</button>
+        </form>
         <h1>Search the recipe from here ! </h1>
         <input type="search" id="search-input" placeholder="Search Recipes">
 
-        <h1>List of Recipes</h1>
+        <h1>List of recipes ! </h1>
         <div id="recipe-list">
         </div>
 
-        #DANISH
         <h1> Get a random recipe !</h1>
-        <button id="random-recipe-btn"> Show random recipe</button>
+        <button id="random-recipe-btn">Show Random Recipe</button>
         <div id="random-recipe"></div>
-
     </section>
 
 
