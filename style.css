@@ -89,8 +89,8 @@ section {
 }
 
 #btn-6 {
-    background: rgb(247,150,192);
-  background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
+    background: rgb(255, 89, 0);
+    background: radial-gradient(circle, rgba(255, 89, 0) 0%, rgb(145, 38, 38) 100%);
     line-height: 42px;
     padding: 0;
     border: none;
@@ -125,7 +125,7 @@ section {
   }
   #btn-6:hover{
     background: transparent;
-    color: #76aef1;
+    color: #000000;
     box-shadow: none;
   }
   #btn-6:hover:before {
