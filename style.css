@@ -95,6 +95,7 @@ section {
     padding: 0;
     border: none;
     border-radius: 4px;
+    padding: 0.5em 1em;
   }
   #btn-6 span {
     position: relative;
